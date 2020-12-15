@@ -3,6 +3,8 @@ What I want in my ultimate future programming language
 
 Similar to Kotlin + Python.
 
+This repo will contain all my thoughts about language design, and reasons for choosing features and trade-offs.
+
 
 
 ## Basic Syntax
@@ -39,6 +41,7 @@ doMath(a, b): {
 
 ## Open Questions
 - What would a language look like with no syntactic sugar? How simple could we make that language?
+- What if no `for` loops? Can we turn all of these usages into something else?
 
 ### Trade-offs
 - Readability for new users vs conciseness for familiar users
@@ -51,6 +54,10 @@ doMath(a, b): {
 - Explicit vs implicit conversions
   - Ex: `int a: '5' as int` vs `int a: '5'`
   - Ex: `float b: 5f` vs `float b: 5`
+- Tradition vs re-think
+  - Ex: `var x = 2` vs `var x: 2`
+  - Ex: `x += 2` vs `x +: 2`
+  - Ex: `for e in elements { ... }` vs `loop e in elements { ... }` vs `elements.each { ... }`
   
 
 
