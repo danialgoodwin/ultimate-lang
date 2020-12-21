@@ -54,6 +54,7 @@ doMath(a, b): {
 - Explicit vs implicit conversions
   - Ex: `int a: '5' as int` vs `int a: '5'`
   - Ex: `float b: 5f` vs `float b: 5`
+  - Ex: `TypeA a: typeB as TypeA` vs `TypeA a: typeB`
 - Tradition vs re-think
   - Ex: `var x = 2` vs `var x: 2`
   - Ex: `x += 2` vs `x +: 2`
