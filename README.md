@@ -82,6 +82,8 @@ Have the levels for how low-level the language is, like for compiler, and compil
 - Rather than using the `override` keyword for methods, maybe have something like `extends` so that the super-class can use more aspect-oriented programming to determine when super.myMethod() is called, and it can do something before and after. If super is called explicitly, then treat the code differently?
     - Meh
 
+- Language config can either go at the top of a file, or in a .langconfig at the project root, or perhaps in a global config in ~/.config/lang/config? Meh to the last one bc hidden dependency and not in version control.
+
 
 
 ## Resources
