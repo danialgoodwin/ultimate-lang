@@ -64,6 +64,23 @@ doMath(a, b): {
 
 ## Design Decisions
 - Discuss: Assignment operator syntax
+- Think about what's easy to type on common keyboards (internationally)
+
+
+
+## Experimental
+Eventually, these ideas will be moved to more specific areas.
+
+Maybe call different levels of the language
+ a0 for compiled code for specific architecture
+ a1 for bytecode running in VM
+ a2 for interpreted code
+
+Or
+Have the levels for how low-level the language is, like for compiler, and compiler-compiler, and compiler-compiler-compiler
+
+- Rather than using the `override` keyword for methods, maybe have something like `extends` so that the super-class can use more aspect-oriented programming to determine when super.myMethod() is called, and it can do something before and after. If super is called explicitly, then treat the code differently?
+    - Meh
 
 
 
