@@ -86,6 +86,8 @@ Have the levels for how low-level the language is, like for compiler, and compil
 
 - `loop` and `loopi` (to include index?) vs just include another param and it will exist automagically? But, what if looping through a map with key and value params already, or looping through a deconstructed Tuple3? Don't need to make the API bigger with `loopi`
 
+- Programming language to replace bash and be good for general large programs. Is Kotlin good enough?
+
 
 
 ## Resources
