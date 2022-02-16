@@ -84,6 +84,8 @@ Have the levels for how low-level the language is, like for compiler, and compil
 
 - Language config can either go at the top of a file, or in a .langconfig at the project root, or perhaps in a global config in ~/.config/lang/config? Meh to the last one bc hidden dependency and not in version control.
 
+- `loop` and `loopi` (to include index?) vs just include another param and it will exist automagically? But, what if looping through a map with key and value params already, or looping through a deconstructed Tuple3? Don't need to make the API bigger with `loopi`
+
 
 
 ## Resources
