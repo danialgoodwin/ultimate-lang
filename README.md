@@ -88,6 +88,10 @@ Have the levels for how low-level the language is, like for compiler, and compil
 
 - Programming language to replace bash and be good for general large programs. Is Kotlin good enough?
 
+- Consider: "So you want to write a package manager"
+    - https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17d9527
+    - https://news.ycombinator.com/item?id=11088125
+
 
 
 ## Resources
