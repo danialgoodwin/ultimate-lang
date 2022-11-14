@@ -92,6 +92,10 @@ Have the levels for how low-level the language is, like for compiler, and compil
     - https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17d9527
     - https://news.ycombinator.com/item?id=11088125
 
+- Live coding 'always'
+- At least a basic version of 'everything' should be available in the standard library, like: server, web pages, gui, json, xml, csv, markdown, code generator, video, ai, machine learning, math, statistics, art, image generation, file manipulation, database/SQL, SQLite, regex, animation, standards (sort by usage? popularity?)
+    - When compiling, do 'tree-shaking' to not have all the extra code
+    - tables/cells in the code, also: images, maybe animations
 
 
 ## Resources
