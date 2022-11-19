@@ -96,6 +96,10 @@ Have the levels for how low-level the language is, like for compiler, and compil
 - At least a basic version of 'everything' should be available in the standard library, like: server, web pages, gui, json, xml, csv, markdown, code generator, video, ai, machine learning, math, statistics, art, image generation, file manipulation, database/SQL, SQLite, regex, animation, standards (sort by usage? popularity?)
     - When compiling, do 'tree-shaking' to not have all the extra code
     - tables/cells in the code, also: images, maybe animations
+- There should be a good build system with dependency manager for the language. Though, should likely allow for plugins to optionally use the common interface.
+    - It's nice to have a simple one built-in so that it's extremely easy to get started... Only one download required. Definitely make it easy for students for a class to get started with.
+- Nice to have: Ability to build simple apps right away. Something needs to be the 'killer' app for the language, like Rails is for Ruby.
+
 
 
 ## Resources
