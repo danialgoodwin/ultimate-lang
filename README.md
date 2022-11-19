@@ -99,6 +99,7 @@ Have the levels for how low-level the language is, like for compiler, and compil
 - There should be a good build system with dependency manager for the language. Though, should likely allow for plugins to optionally use the common interface.
     - It's nice to have a simple one built-in so that it's extremely easy to get started... Only one download required. Definitely make it easy for students for a class to get started with.
 - Nice to have: Ability to build simple apps right away. Something needs to be the 'killer' app for the language, like Rails is for Ruby.
+- Perhaps a simple dependency injection framework should be built into the language.
 
 
 
