@@ -100,6 +100,15 @@ Have the levels for how low-level the language is, like for compiler, and compil
     - It's nice to have a simple one built-in so that it's extremely easy to get started... Only one download required. Definitely make it easy for students for a class to get started with.
 - Nice to have: Ability to build simple apps right away. Something needs to be the 'killer' app for the language, like Rails is for Ruby.
 - Perhaps a simple dependency injection framework should be built into the language.
+- Ability to parse different sections (or values) differently. For example maybe: `@json('{key: value}')`. Will have great integration with IDE, and can fall back easily in a text editor. Or, if a method parameter is annotated, the arguments passed in could show as special in IDEs.
+- Maybe want to be good at text editing to be comprable to using a shell. For example, to write a program to count word frequencies in a given text:
+
+        tr -cs A-Za-z '\n' | tr A-Z a-z | sort | uniq -c | sort -rn | sed ${1}q
+
+- Similarly to the above. Maybe have the ability to easily integrate 'little languages' (aka, DSLs)
+- What would a high(er) level shell language look like?
+- Idea: Apps as QR codes.
+- TODO: Create a design document about using an equals sign or not. Pro: It's explicit. Con: May not be able to tell if we are setting a value or calling a function with a value.
 
 
 
