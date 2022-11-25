@@ -111,7 +111,9 @@ Have the levels for how low-level the language is, like for compiler, and compil
 - TODO: Create a design document about using an equals sign or not. Pro: It's explicit. Con: May not be able to tell if we are setting a value or calling a function with a value.
 - Could a list of values be a `list` without surrounding the values with square brackets? For example: `1 2 3` is automatically a `[1, 2, 3]`
     - Idea: `sum 1 2 3` could mean `sum([1, 2, 3])`
-
+- Would need to target freelance developers or small companies that can afford time to play around with new languages. Need to have a robust language so that users aren't afraid of it crashing. And, it would need to be general enough to support any of the future plans for their projects.
+- Idea: If there is no reflection allowed in the language, then the compiler can more easily remove unused classes, fields, and methods.
 
 
 ## Resources
+- https://www.akitasoftware.com/blog-posts/why-arent-there-more-programming-languages-startups
