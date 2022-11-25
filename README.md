@@ -109,6 +109,8 @@ Have the levels for how low-level the language is, like for compiler, and compil
 - What would a high(er) level shell language look like?
 - Idea: Apps as QR codes.
 - TODO: Create a design document about using an equals sign or not. Pro: It's explicit. Con: May not be able to tell if we are setting a value or calling a function with a value.
+- Could a list of values be a `list` without surrounding the values with square brackets? For example: `1 2 3` is automatically a `[1, 2, 3]`
+    - Idea: `sum 1 2 3` could mean `sum([1, 2, 3])`
 
 
 
