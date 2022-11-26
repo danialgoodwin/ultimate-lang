@@ -114,6 +114,8 @@ Have the levels for how low-level the language is, like for compiler, and compil
 - Would need to target freelance developers or small companies that can afford time to play around with new languages. Need to have a robust language so that users aren't afraid of it crashing. And, it would need to be general enough to support any of the future plans for their projects.
 - Idea: If there is no reflection allowed in the language, then the compiler can more easily remove unused classes, fields, and methods.
 - Idea: When have `output`, it can be changed to a log file or other with configuration and without changing the code.
+- What's the most that get created with a 'app.json' config file? How much of an app can be generated from a single config file.
+
 
 
 ## Resources
