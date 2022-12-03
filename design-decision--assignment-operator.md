@@ -1,7 +1,7 @@
 # Design Decision - Assignment Operator
 
 The main choices for an assignment operator are `=` or `:` or `:=` or `assign` (or synonym) or nothing. Examples:
-- `a = 1` in B, C, C++, Go, Haxe, Java, Javascript, Kotlin, Matlab, Python, Ruby, Rust, SQL
+- `a = 1` in B, C, C++, Go, Hascal, Haxe, Java, Javascript, Kotlin, Matlab, Python, Ruby, Rust, SQL
 - `a: 1`
 - `a := 1` in Pascal
 - `assign a 1`
