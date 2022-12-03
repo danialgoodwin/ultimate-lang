@@ -39,6 +39,13 @@ a(): add('Hello ', myVar())
 myEval(a, b, c): add(a, sub(b, pow(c, 2)))
 ```
 
+Or (but, this may be harder to read?):
+```
+assign a 1
+assign b inputs foo bar do
+    comment TODO
+end
+```
 
 
 ## Simplified Grammar
