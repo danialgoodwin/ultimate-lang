@@ -12,10 +12,10 @@ This repo will contain all my thoughts about language design, and reasons for ch
 ```
 @ultimate-mode: dynamic, interpreted  # Options: dynamic/static, interpreted/compiled, prefer-speed/prefer-size, log-error/log-warn/log-info/log-debug
 
-a: 40
-a +: 2
-b: 'foo'
-c: '3' as number
+a = 40
+a += 2
+b = 'foo'
+c = '3' as number
 
 b.loop { i, c ->
     print '$i: $c'
@@ -26,7 +26,7 @@ c.loop { i ->
 }
 
 @memoize(1 kb)  # Options: @inline, @lazy, @memoize
-doMath(a, b): {
+doMath(a, b) = {
     return 4 * a + b^2
 }
 ```
