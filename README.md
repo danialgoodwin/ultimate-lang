@@ -115,6 +115,7 @@ Have the levels for how low-level the language is, like for compiler, and compil
 - Idea: If there is no reflection allowed in the language, then the compiler can more easily remove unused classes, fields, and methods.
 - Idea: When have `output`, it can be changed to a log file or other with configuration and without changing the code.
 - What's the most that get created with a 'app.json' config file? How much of an app can be generated from a single config file.
+- Idea: Types as a function.
 
 
 
